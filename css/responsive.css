@@ -1,0 +1,100 @@
+@media screen and (max-width: 991px) {
+	.middle-area p{
+		font-size: 13px;
+		margin-bottom: 15px;
+	}
+	.btn{
+		width: 120px;
+		height: 32px;
+		line-height: 32px;
+	}
+	.flip_item{
+		padding: 10px;
+	}
+	.flip_item img{
+		height: 160px;
+	}
+	.quiz-slider .title {
+	    font-size: 4vw;
+	}
+}
+@media screen and (min-width: 641px) {
+	.text-sm-right{
+		text-align: right;
+	}
+}
+@media screen and (max-width: 640px) {
+	.home .title, .title {
+	    margin-bottom: 0.6em;
+	}
+	.home .title {
+	    font-size: 12vw;
+	}
+	.quiz-slider .title {
+	    font-size: 5.6vw;
+	}
+	.title{
+		font-size: 10vw;
+	}
+	.home .title span{
+	    top: 4px;
+	}
+
+	.top-area, .bottom-area{
+		padding: 8px 10px;
+	}
+
+	.slick-dots{
+		left: 8px;
+		bottom: 10px;
+	}
+
+	.row{
+		display: block;
+	}
+
+	.col-sm-6{
+		max-width: 100%;
+		-webkit-flex: 0 0 100%;
+		-moz-flex: 0 0 100%;
+		-ms-flex: 0 0 100%;
+		-o-flex: 0 0 100%;
+		flex: 0 0 100%;
+	}
+	.flip-images{
+		margin-top: 45px;
+	}
+	.content h5{
+		font-size: 12px;
+	}
+	.flip-area{
+		height: auto;
+		overflow: auto;
+		display: block;
+		white-space: nowrap;
+	}
+	.flip_item {
+		display: inline-block;
+	    min-width: 200px;
+	    margin-left: -75px;
+	}
+	.flip_item:first-child{
+		margin-left: 10px;
+	}
+	.slick-dots li{
+		margin: 0;
+	}
+	.title span{
+		padding-bottom: 2px;
+		border-bottom-width: 3px;
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.flip-images img{
+		border-radius: 8px;
+	}
+	.flip-images{
+		max-width: 95%;
+	}
+}

@@ -1,0 +1,29 @@
+Question,Question Name,Response,Response Name,Archetype 1,Archetype 2,Archetype 3,Archetype 4,Archetype 5,Archetype 6,Archetype 7,Archetype 8,Archetype 9
+1,What word best describe you?,1,Sophisticated,0,1.096,0,0,0,1.096,0,0,0
+1,What word best describe you?,2,Curious,0,0,0,1.096,1.096,0,0,0,0
+1,What word best describe you?,3,Trendy,0,0,0,0,0,0,0,0,1.096
+1,What word best describe you?,4,Thrill-seeker,0,0,1.096,0,0,0,0,0,0
+2,Which experience has made you most happy in the last month?,1,Online shopping/Retailer,0,0,0,0,1.129,0,0,0,1.129
+2,Which experience has made you most happy in the last month?,2,Sports/sporting event,0,0,1.129,0,0,0,0,0,0
+2,Which experience has made you most happy in the last month?,3,Live music,1.129,0,0,0,0,1.129,0,0,0
+2,Which experience has made you most happy in the last month?,4,Restaurant/bar,0,0,0,0,0,1.129,0,1.129,0
+3,"From the list below, which of the following might you hope to personally accomplish from being part of an experience?",1,Learn something new ,0,1.107,0,0,0,1.107,1.107,1.107,0
+3,"From the list below, which of the following might you hope to personally accomplish from being part of an experience?",2,Improve my holistic well-being,1.107,0,0,0,0,0,1.107,1.107,0
+3,"From the list below, which of the following might you hope to personally accomplish from being part of an experience?",3,To laugh and have fun,0,0,1.107,0,1.107,0,0,0,1.107
+3,"From the list below, which of the following might you hope to personally accomplish from being part of an experience?",4,Be reflective/nostalgic,0,0,0,1.107,0,0,1.107,0,0
+4,What is most important to you when attending an event or experience?,1,Getting up close to the action / VIP experience ,0,1.118,1.118,0,0,0,0,1.118,0
+4,What is most important to you when attending an event or experience?,2,Meeting new people with similar interests ,0,0,0,1.118,0,1.118,1.118,0,1.118
+4,What is most important to you when attending an event or experience?,3,Makes me think differently/smarter ,0,0,0,1.118,0,1.118,1.118,1.118,0
+4,What is most important to you when attending an event or experience?,4,Has unexpected and unique moments,1.118,1.118,1.118,0,1.118,0,0,0,0
+5,Would you rather…,1,Attend a concert for your favorite musician by yourself,1.074,0,0,0,0,1.074,0,0,0
+5,Would you rather…,2,Attend a concert for your favorite musician with a group of friends,0,1.074,1.074,1.074,1.074,0,1.074,1.074,1.074
+6,Would you rather…,1,Host a dinner party at your home,0,1.063,0,0,0,1.063,0,0,1.063
+6,Would you rather…,2,Attend a dinner party hosted at someone else’s home,1.063,0,1.063,1.063,0,0,0,1.063,0
+7,Would you rather…,1,Be part of an exclusive event for only 50 people,1.085,1.085,0,0,1.085,1.085,0,1.085,0
+7,Would you rather…,2,Be part of a larger event for 500 people,0,0,1.085,1.085,0,0,1.085,0,1.085
+8,Would you rather…,1,"Get to meet/have a one hour solo meeting with your favorite celebrity, athlete, or musician, but you can’t tell anyone about it",1.052,1.052,0,0,0,0,0,0,0
+8,Would you rather…,2,"Be part of a larger meet and greet group with your favorite celebrity, athlete, or musician that you can tell others about",0,0,1.052,1.052,1.052,1.052,1.052,1.052,1.052
+9,Would you rather…,1,Watch your favorite sport either on TV or in person,0,0,0,0,1.041,0,0,0,0
+9,Would you rather…,2,Play your favorite sport/be on a team,0,0,1.041,1.041,0,0,0,0,0
+10,Would you rather…,1,Take a gourmet cooking class,0,0,1.03,0,0,1.03,0,0,0
+10,Would you rather…,2,Eat at a gourmet restaurant,0,1.03,0,0,0,0,0,1.03,1.03
