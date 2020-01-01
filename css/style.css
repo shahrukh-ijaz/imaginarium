@@ -312,7 +312,7 @@ body{
 }
 .flip_item.fl_active{
     z-index: 8;
-    background: #ce4c2e;
+    background: #00cc66;
 }
 .flip_item span{
     position: absolute;
