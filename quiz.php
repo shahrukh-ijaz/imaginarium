@@ -37,12 +37,11 @@ $questions = mysqli_query($conn, "SELECT * FROM questions;");
 <body>
 	<div id="wrapper">
 		<div class="top-area">
-			<a href="#">Archetypes</a>
 			<a href="#" class="ml-a">Share</a>
 		</div>
 		<!-- /.top-area -->
 		<div class="bottom-area">
-			<a href="#" class="ml-a"><img src="images/logo.png" alt="logo"></a>
+			<a href="https://www.momentumww.com/insight" target="_blank" class="ml-a"><img src="images/logo.png" alt="logo"></a>
 		</div>
 		<!-- /.bottom-area -->
 		<div class="middle-area content">
@@ -72,7 +71,7 @@ $questions = mysqli_query($conn, "SELECT * FROM questions;");
 				    			<input type="hidden" class="response_number" value="<?php echo $response; ?>">
 
 				    			<img src="<?php echo $fetch_response['image'];?>" class="img-responsive" />
-				    			<span><?php echo $fetch_response['response'];?></span>
+				    			<span class="col-sm-1"><?php echo $fetch_response['response'];?></span>
 				    		</div>
 				    		<?php
 				    		$response++; 

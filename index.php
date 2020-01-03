@@ -20,13 +20,12 @@ $_SESSION["responses"]=array();
 <body>
 	<div id="wrapper">
 		<div class="top-area">
-			<a href="#">About</a>
+			<a href="about.html" target="_blank">About</a>
 			<a href="#" class="ml-a">Share</a>
 		</div>
 		<!-- /.top-area -->
 		<div class="bottom-area">
-			<a href="#">Archetypes</a>
-			<a href="#" class="ml-a"><img src="images/logo.png" alt="logo"></a>
+			<a href="https://www.momentumww.com/insight" target="_blank" class="ml-a"><img src="images/logo.png" alt="logo"></a>
 		</div>
 		<!-- /.bottom-area -->
 		<div class="middle-area home text-uppercase text-center">

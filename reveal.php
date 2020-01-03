@@ -7,7 +7,6 @@ $max++;
 include ('db.php');
 $archetype = mysqli_query($conn, "SELECT * FROM archetypes where id = '$max';");
 $archetype = mysqli_fetch_assoc($archetype);
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,29 +14,44 @@ $archetype = mysqli_fetch_assoc($archetype);
 	<!-- meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
 	<title>The Archetypes</title>
-
 	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.min.css"/>
-
 	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
+	<style>
+		.btn-top{
+			border-top: -100px;			
+		}
+	</style>
 </head>
 <body>
 	<div id="wrapper">
 		<div class="top-area">
-			<a href="#">About</a>
+			<a href="about.html" target="_blank">About</a>			
 			<a href="#" class="ml-a">Share</a>
 		</div>
+
 		<!-- /.top-area -->
 		<div class="bottom-area">
-			<a href="#">Archetypes</a>
-			<a href="#" class="ml-a"><img src="images/logo.png" alt="logo"></a>
+			<a href="https://www.momentumww.com/insight" target="_blank" class="ml-a"><img src="images/logo.png" alt="logo"></a>
 		</div>
 		<!-- /.bottom-area -->
+
+		
+
 		<div class="middle-area content">
 			<div class="container">
+				<div class="row">
+					<div class="col-sm-6">
+					</div>
+					<div class="col-sm-3">
+						<a class="btn" align="center" href="index.php" style="width: 170px;text-align: center;">Take the Quiz again</a><br><br><br>
+					</div>
+					<!-- <div class="col-sm-2"></div> -->
+				</div>
+			</div>			
+			<div class="container">								
 				<div class="row align-items-center">
 					<div class="col-sm-6">
 						<div class="title text-uppercase">
@@ -58,7 +72,7 @@ $archetype = mysqli_fetch_assoc($archetype);
 				</div>
 				<!-- /.row -->
 			</div>
-			<!-- /.conyainer -->
+			<!-- /.conainer -->
 		</div>
 		<!-- /.middle-area -->
 	</div>

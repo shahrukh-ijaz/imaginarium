@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 30, 2019 at 10:52 AM
+-- Generation Time: Jan 03, 2020 at 07:47 PM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.2
 
@@ -78,7 +78,11 @@ CREATE TABLE `history` (
 --
 
 INSERT INTO `history` (`id`, `r1`, `r2`, `r3`, `r4`, `r5`, `r6`, `r7`, `r8`, `r9`, `r10`, `archetype`, `time`) VALUES
-(1, 2, 2, 2, 4, 1, 2, 1, 2, 1, 2, 'Escapist', '2019-12-30 09:48:41');
+(1, 2, 2, 2, 4, 1, 2, 1, 2, 1, 2, 'Escapist', '2019-12-30 09:48:41'),
+(2, 1, 2, 2, 2, 1, 2, 1, 2, 2, 1, 'Master', '2020-01-03 15:56:29'),
+(3, 1, 1, 3, 4, 2, 2, 2, 2, 2, 2, 'Energizer', '2020-01-03 17:30:11'),
+(4, 1, 1, 3, 4, 2, 2, 2, 2, 2, 2, 'Energizer', '2020-01-03 17:31:08'),
+(5, 3, 2, 2, 2, 1, 2, 1, 2, 1, 2, 'Indulger', '2020-01-03 17:40:36');
 
 -- --------------------------------------------------------
 
@@ -130,30 +134,30 @@ INSERT INTO `responses` (`id`, `question_id`, `response`, `image`) VALUES
 (2, 1, 'Curious', 'images/Q1/Curious_3.jpg'),
 (3, 1, 'Trendy', 'images/Q1/Trendy_2.jpg'),
 (4, 1, 'Thrill-seeker', 'images/Q1/Thrill-seeker_1.jpg'),
-(5, 2, 'Online shopping/Retailer', 'images/Q2/Shopping.jpg'),
+(5, 2, 'Online <br>shopping/Retailer', 'images/Q2/Shopping.jpg'),
 (6, 2, 'Sports/Sporting event', 'images/Q2/Sports.jpg'),
 (7, 2, 'Live music', 'images/Q2/Music.jpg'),
 (8, 2, 'Restaurant/Bar', 'images/Q2/Restaurant.Bar.jpg'),
 (9, 3, 'Learn something new ', 'images/Q3/Learn.jpg'),
-(10, 3, 'Improve my Holistic well-being', 'images/Q3/Improve Holistic.jpg'),
+(10, 3, 'Improve my Holistic <br> well-being', 'images/Q3/Improve Holistic.jpg'),
 (11, 3, 'To laugh and have fun', 'images/Q3/Laugh.jpg'),
 (12, 3, 'Be Reflective/Nostalgic', 'images/Q3/Reflect.jpg'),
-(13, 4, 'Getting up close to the action / VIP experience', 'images/Q4/VIP Experience.jpg'),
-(14, 4, 'Meeting new people with similar interests ', 'images/Q4/Meeting New People.jpg'),
-(15, 4, 'Makes me think differently/smarter ', 'images/Q4/Think Smarter.jpg'),
-(16, 4, 'Has unexpected and unique moments', 'images/Q4/Unique Moments.jpg'),
-(17, 5, 'Attend a concert for your favorite musician by yourself', 'images/Q5/Yourself.jpg'),
-(18, 5, 'Attend a concert for your favorite musician with a group of friends', 'images/Q5/With Friends.jpg'),
-(19, 6, 'Host a dinner party at your home', 'images/Q6/Host.jpg'),
-(20, 6, 'Attend a dinner party hosted at someone else’s home', 'images/Q6/Attend.jpg'),
-(21, 7, 'Be part of an exclusive event for only 50 people', 'images/Q7/Intimate Event.jpg'),
-(22, 7, 'Be part of a larger event for 500 people', 'images/Q7/Big Event.jpg'),
-(23, 8, 'Get to meet/have a one hour solo meeting with your favorite celebrity, athlete, or musician, but you can’t tell anyone about it', 'images/Q8/1on1.jpg'),
-(24, 8, 'Be part of a larger meet and greet group with your favorite celebrity, athlete, or musician that you can tell others about', 'images/Q8/Group Meeting.jpg'),
-(25, 9, 'Watch your favorite sport either on TV or in person', 'images/Q9/Watch.jpg'),
-(26, 9, 'Play your favorite sport/be on a team', 'images/Q9/Play.jpg'),
-(27, 10, 'Take a gourmet cooking class', 'images/Q10/Cooking Class.jpg'),
-(28, 10, 'Eat at a gourmet restaurant', 'images/Q10/Gourmet Restaurant.jpg');
+(13, 4, 'Getting up close to <br> action/VIP experience', 'images/Q4/VIP Experience.jpg'),
+(14, 4, 'Meeting new people<br>with similar interests ', 'images/Q4/Meeting New People.jpg'),
+(15, 4, 'Makes me think <br>differently/smarter ', 'images/Q4/Think Smarter.jpg'),
+(16, 4, 'Has unexpected and<br> unique moments', 'images/Q4/Unique Moments.jpg'),
+(17, 5, 'Attend a concert for<br> your favorite musician<br> by yourself', 'images/Q5/Yourself.jpg'),
+(18, 5, 'Attend a concert for<br> your favorite musician <br>with a group of friends', 'images/Q5/With Friends.jpg'),
+(19, 6, 'Host a dinner <br>party at your home', 'images/Q6/Host.jpg'),
+(20, 6, 'Attend a dinner party<br> hosted at someone <br>else\'s home', 'images/Q6/Attend.jpg'),
+(21, 7, 'Be part of an exclusive <br>event for only 50 people', 'images/Q7/Intimate Event.jpg'),
+(22, 7, 'Be part of a larger <br>event for 500 people', 'images/Q7/Big Event.jpg'),
+(23, 8, 'Get to meet/have a one<br> hour solo meeting with<br> your favorite celebrity, <br>athlete, or musician, but you<br> can\'t tell anyone about it', 'images/Q8/1on1.jpg'),
+(24, 8, 'Be part of a larger meet<br> and greet group with <br>your favorite celebrity, <br>athlete, or musician that you<br> can tell others about', 'images/Q8/Group Meeting.jpg'),
+(25, 9, 'Watch your favorite <br>sport either on TV<br> or in person', 'images/Q9/Watch.jpg'),
+(26, 9, 'Play your favorite <br>sport/be on a team', 'images/Q9/Play.jpg'),
+(27, 10, 'Take a gourmet cooking<br> class', 'images/Q10/Cooking Class.jpg'),
+(28, 10, 'Eat at a gourmet <br>restaurant', 'images/Q10/Gourmet Restaurant.jpg');
 
 -- --------------------------------------------------------
 
@@ -475,7 +479,7 @@ ALTER TABLE `archetypes`
 -- AUTO_INCREMENT for table `history`
 --
 ALTER TABLE `history`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `questions`
