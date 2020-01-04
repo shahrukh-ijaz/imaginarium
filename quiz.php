@@ -37,6 +37,7 @@ $questions = mysqli_query($conn, "SELECT * FROM questions;");
 <body>
 	<div id="wrapper">
 		<div class="top-area">
+			<a href="about.html" target="_blank">About</a>	
 			<a href="#" class="ml-a">Share</a>
 		</div>
 		<!-- /.top-area -->
