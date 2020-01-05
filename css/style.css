@@ -35,6 +35,9 @@ a, .btn, .flip_item, .slick-dots button:before, .slick-dots button:after, img.fl
 .mt-35{
     margin-top: 35px;
 }
+.mb-20{
+    margin-bottom: 20px;
+}
 .text-center{
     text-align: center;
 }
@@ -144,10 +147,12 @@ body{
     text-decoration: none;
     color: #000;
     border: 1px #000 solid;
-    width: 140px;
+    min-width: 140px;
     height: 36px;
     line-height: 36px;
     letter-spacing: 0.1em;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .btn:hover{
     background: #000;
@@ -185,6 +190,16 @@ body{
     -o-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+}
+.col-sm-12{
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-flex: 0 0 100%;
+    -moz-flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    -o-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
 }
 
 .img-responsive{
@@ -307,12 +322,56 @@ body{
     -webkit-box-shadow: 0px 1px 11px 3px rgba(0, 0, 0, 0.11);
     box-shadow: 0px 1px 11px 3px rgba(0, 0, 0, 0.11);
 }
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #cccccc;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  margin-left: -180px;
+}
+
+/* Popup arrow */
+/*.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  margin-left: -30px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}*/
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
 .flip_item:hover{
     z-index: 5;
 }
 .flip_item.fl_active{
     z-index: 8;
-    background: #00cc66;
+    background: #48c756;
 }
 .flip_item span{
     position: absolute;
