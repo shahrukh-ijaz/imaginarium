@@ -19,11 +19,8 @@ $archetype = mysqli_fetch_assoc($archetype);
 	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
-	<style>
-		.btn-top{
-			border-top: -100px;			
-		}
-	</style>
+	<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e0ce9f6e6d3310012cd7f42&product=inline-share-buttons&cms=sop' async='async'></script>
+	
 </head>
 <body>
 	<div id="wrapper">
