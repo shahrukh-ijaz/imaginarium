@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 03, 2020 at 07:47 PM
+-- Generation Time: Jan 05, 2020 at 10:33 PM
 -- Server version: 10.1.30-MariaDB
 -- PHP Version: 7.2.2
 
@@ -33,23 +33,24 @@ CREATE TABLE `archetypes` (
   `image` varchar(255) DEFAULT NULL,
   `detail_image` varchar(255) DEFAULT NULL,
   `details` text,
-  `title` varchar(255) NOT NULL
+  `title` varchar(255) NOT NULL,
+  `bold_details` text
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
 -- Dumping data for table `archetypes`
 --
 
-INSERT INTO `archetypes` (`id`, `image`, `detail_image`, `details`, `title`) VALUES
-(1, 'images/archetypes/A1.png', 'images/archetypes/A1 Description.png', NULL, 'Escapist'),
-(2, 'images/archetypes/A2.png', 'images/archetypes/A2 Description.png', NULL, 'Aspirer'),
-(3, 'images/archetypes/A3.png', 'images/archetypes/A3 Description.png', NULL, 'Energizer'),
-(4, 'images/archetypes/A4.png', 'images/archetypes/A4 Description.png', NULL, 'Culturist'),
-(5, 'images/archetypes/A5.png', 'images/archetypes/A6 Description.png', NULL, 'Fantasist'),
-(6, 'images/archetypes/A6.png', 'images/archetypes/A6 Description.png', NULL, 'Master'),
-(7, 'images/archetypes/A7.png', 'images/archetypes/A7 Description.png', NULL, 'Change-Maker'),
-(8, 'images/archetypes/A8.png', 'images/archetypes/A8 Description.png', NULL, 'Indulger'),
-(9, 'images/archetypes/A9.png', 'images/archetypes/A9 Description.png', NULL, 'Trend-Hunter');
+INSERT INTO `archetypes` (`id`, `image`, `detail_image`, `details`, `title`, `bold_details`) VALUES
+(1, 'images/archetypes/A1.png', 'images/archetypes/A1 Description.png', NULL, 'Escapist', NULL),
+(2, 'images/archetypes/A2.png', 'images/archetypes/A2 Description.png', NULL, 'Aspirer', NULL),
+(3, 'images/archetypes/A3.png', 'images/archetypes/A3 Description.png', NULL, 'Energizer', NULL),
+(4, 'images/archetypes/A4.png', 'images/archetypes/A4 Description.png', NULL, 'Culturist', NULL),
+(5, 'images/archetypes/A5.png', 'images/archetypes/A6 Description.png', NULL, 'Fantasist', NULL),
+(6, 'images/archetypes/A6.png', 'images/archetypes/A6 Description.png', NULL, 'Master', NULL),
+(7, 'images/archetypes/A7.png', 'images/archetypes/A7 Description.png', NULL, 'Change-Maker', NULL),
+(8, 'images/archetypes/A8.png', 'images/archetypes/A8 Description.png', NULL, 'Indulger', NULL),
+(9, 'images/archetypes/A9.png', 'images/archetypes/A9 Description.png', NULL, 'Trend-Hunter', NULL);
 
 -- --------------------------------------------------------
 
@@ -82,7 +83,8 @@ INSERT INTO `history` (`id`, `r1`, `r2`, `r3`, `r4`, `r5`, `r6`, `r7`, `r8`, `r9
 (2, 1, 2, 2, 2, 1, 2, 1, 2, 2, 1, 'Master', '2020-01-03 15:56:29'),
 (3, 1, 1, 3, 4, 2, 2, 2, 2, 2, 2, 'Energizer', '2020-01-03 17:30:11'),
 (4, 1, 1, 3, 4, 2, 2, 2, 2, 2, 2, 'Energizer', '2020-01-03 17:31:08'),
-(5, 3, 2, 2, 2, 1, 2, 1, 2, 1, 2, 'Indulger', '2020-01-03 17:40:36');
+(5, 3, 2, 2, 2, 1, 2, 1, 2, 1, 2, 'Indulger', '2020-01-03 17:40:36'),
+(6, 1, 2, 2, 2, 1, 2, 1, 2, 2, 1, 'Master', '2020-01-05 17:48:39');
 
 -- --------------------------------------------------------
 
@@ -479,7 +481,7 @@ ALTER TABLE `archetypes`
 -- AUTO_INCREMENT for table `history`
 --
 ALTER TABLE `history`
-  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 
 --
 -- AUTO_INCREMENT for table `questions`
