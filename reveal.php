@@ -29,7 +29,9 @@ $archetype = mysqli_fetch_assoc($archetype);
 	<div id="wrapper">
 		<div class="top-area">
 			<a href="about.html" target="_blank">About</a>			
-			<a href="#" class="ml-a">Share</a>
+			<div class="popup ml-a" onclick="myFunction()">Share
+  				<div class="popuptext" id="myPopup"><div class="sharethis-inline-share-buttons"></div></div>
+			</div>
 		</div>
 
 		<!-- /.top-area -->
@@ -43,12 +45,10 @@ $archetype = mysqli_fetch_assoc($archetype);
 		<div class="middle-area content">
 			<div class="container">
 				<div class="row">
-					<div class="col-sm-6">
+					<div class="col-sm-12 text-center mb-20">
+						<a href="#" class="btn">Take the Quiz Again</a>
 					</div>
-					<div class="col-sm-3">
-						<a class="btn" align="center" href="index.php" style="width: 170px;text-align: center;">Take the Quiz again</a><br><br><br>
-					</div>
-					<!-- <div class="col-sm-2"></div> -->
+					<!-- /.col-sm-12 -->
 				</div>
 			</div>			
 			<div class="container">								
@@ -85,7 +85,10 @@ $archetype = mysqli_fetch_assoc($archetype);
 	    $(document).ready(function(){
 	    	$('[data-fancybox]').fancybox();
 	    });
-
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
 	  </script>
 </body>
 </html>

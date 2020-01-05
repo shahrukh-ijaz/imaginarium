@@ -16,12 +16,15 @@ $_SESSION["responses"]=array();
 	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
+	<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e0ce9f6e6d3310012cd7f42&product=inline-share-buttons&cms=sop' async='async'></script>
 </head>
 <body>
 	<div id="wrapper">
 		<div class="top-area">
 			<a href="about.html" target="_blank">About</a>
-			<a href="#" class="ml-a">Share</a>
+			<div class="popup ml-a" onclick="myFunction()">Share
+  <div class="popuptext" id="myPopup"><div class="sharethis-inline-share-buttons"></div></div>
+</div>
 		</div>
 		<!-- /.top-area -->
 		<div class="bottom-area">
@@ -41,5 +44,17 @@ $_SESSION["responses"]=array();
 		<!-- /.middle-area -->
 	</div>
 	<!-- /#wrapper -->
+	<script src="js/jquery.min.js"></script>
+	<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+$("body").click(function(e){
+
+  
+    });
+</script>
 </body>
 </html>
