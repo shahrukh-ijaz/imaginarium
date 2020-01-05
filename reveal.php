@@ -42,7 +42,7 @@ $archetype = mysqli_fetch_assoc($archetype);
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-12 text-center mb-20">
-						<a href="#" class="btn">Take the Quiz Again</a>
+						<a href="index.php" class="btn">Take the Quiz Again</a>
 					</div>
 					<!-- /.col-sm-12 -->
 				</div>
