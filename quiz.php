@@ -33,13 +33,13 @@ $questions = mysqli_query($conn, "SELECT * FROM questions;");
 	<link rel="stylesheet" href="css/reset.css" />
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
-	<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e0ce9f6e6d3310012cd7f42&product=inline-share-buttons&cms=sop' async='async'></script>
+	<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e0ce9f6e6d3310012cd7f42&product=inline-share-buttons&cms=sop' ></script>
 </head>
 <body>
 	<div id="wrapper">
 		<div class="top-area">
 			<a href="about.html" target="_blank">About</a>	
-			<div class="popup ml-a" onclick="myFunction()">Share
+			<div class="popup ml-a" onclick="myFunction()"><a href="#">Share</a>
   				<div class="popuptext" id="myPopup"><div class="sharethis-inline-share-buttons"></div></div>
 			</div>
 		</div>
@@ -104,7 +104,7 @@ $questions = mysqli_query($conn, "SELECT * FROM questions;");
   popup.classList.toggle("show");
 }
 	    $(document).ready(function(){
-	    	
+	    	$('#st-el-1').hide();
 	      $('.quiz-slider').slick({
 	      	dots: true,
 	      	adaptiveHeight: true,

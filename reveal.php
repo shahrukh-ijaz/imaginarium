@@ -26,11 +26,10 @@ $archetype = mysqli_fetch_assoc($archetype);
 	<div id="wrapper">
 		<div class="top-area">
 			<a href="about.html" target="_blank">About</a>			
-			<div class="popup ml-a" onclick="myFunction()">Share
+			<div class="popup ml-a" onclick="myFunction()"><a href="#">Share</a>
   				<div class="popuptext" id="myPopup"><div class="sharethis-inline-share-buttons"></div></div>
 			</div>
 		</div>
-
 		<!-- /.top-area -->
 		<div class="bottom-area">
 			<a href="https://www.momentumww.com/insight" target="_blank" class="ml-a"><img src="images/logo.png" alt="logo"></a>

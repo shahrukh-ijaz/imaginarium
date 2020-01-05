@@ -22,7 +22,7 @@ $_SESSION["responses"]=array();
 	<div id="wrapper">
 		<div class="top-area">
 			<a href="about.html" target="_blank">About</a>
-			<div class="popup ml-a" onclick="myFunction()">Share
+			<div class="popup ml-a" onclick="myFunction()"><a href="#">Share</a>
   <div class="popuptext" id="myPopup"><div class="sharethis-inline-share-buttons"></div></div>
 </div>
 		</div>
