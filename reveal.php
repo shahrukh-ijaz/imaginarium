@@ -53,14 +53,14 @@ $archetype = mysqli_fetch_assoc($archetype);
 						<div class="title text-uppercase">
 							<span>the</span> <?php echo $archetype['title'];?>	
 						</div>
-						<h5>Lorem ipsum dolor sit amet.</h5>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, impedit ut voluptatum cum temporibus quia perferendis rerum necessitatibus! Dignissimos fugit deleniti, quasi saepe possimus eos, laborum eius blanditiis totam ab mollitia numquam ea, inventore sequi corporis aliquid? Eaque, labore, voluptatum!</p>
+						<h5><?php echo $archetype['bold_details'];?></h5>
+						<p><?php echo $archetype['details'];?></p>
 					</div>
 					<!-- /.col-sm-6 -->
 					<div class="col-sm-6">
 						<div class="flip-images">
 							<img src="<?php echo $archetype['image'];?>" class="img-responsive flip-left"sss />
-							<img data-fancybox href="images/archetypes/A6 Description.png" src="images/archetypes/A6 Description.png" class="img-responsive flip-right" alt=" Description" />
+							<img data-fancybox href="<?php echo $archetype['detail_image'];?>" src="<?php echo $archetype['detail_image'];?>" class="img-responsive flip-right" alt=" Description" />
 						</div>
 						<!-- /.flip-images -->
 					</div>
