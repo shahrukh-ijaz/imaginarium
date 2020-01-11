@@ -28,12 +28,13 @@ $_SESSION["responses"]=array();
 		</div>
 		<!-- /.top-area -->
 		<div class="bottom-area">
-			<a href="https://www.momentumww.com/insight" target="_blank" class="ml-a"><img src="images/logo.png" alt="logo"></a>
+			<a href="https://www.momentumww.com/insight" target="_blank" class="ml-a"><img style="float: right;" height="15%" width="15%" src="images/logo.png" alt="logo"></a>
 		</div>
 		<!-- /.bottom-area -->
 		<div class="middle-area home text-uppercase text-center">
 			<div class="container">
 				<div class="title">
+					<img width="200px" src="images/momentum.bmp"><br>
 					<span>the</span> archetypes
 				</div>
 				<p>discover your archtype</p>
