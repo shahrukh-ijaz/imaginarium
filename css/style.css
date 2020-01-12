@@ -418,7 +418,10 @@ body {
     z-index: 8;
     background: #48c756;
 }
-
+.logo img{
+        height: 7%;
+        width:7%;
+    }
 .flip_item span {
     position: absolute;
     bottom: 25px;
@@ -434,7 +437,9 @@ body {
     object-position: center;
     object-fit: cover;
 }
-
+.copyright{
+    margin-left: 45%;
+}
 .fancybox-bg {
     background: #000;
 }

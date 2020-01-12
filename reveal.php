@@ -32,7 +32,8 @@ $archetype = mysqli_fetch_assoc($archetype);
 		</div>
 		<!-- /.top-area -->
 		<div class="bottom-area">
-			<a href="https://www.momentumww.com/insight" target="_blank" class="ml-a"><img style="float: right;" height="15%" width="15%" src="images/logo.png" alt="logo"></a>
+			<span style="margin-left: 45%;text-align: center"  class="copyright ">Momemtum &copy; 2020</span>
+			<a href="https://www.momentumww.com/insight" target="_blank" class="ml-a logo"><img style="float: right;" src="images/logo.png" alt="logo"></a>
 		</div>
 		<!-- /.bottom-area -->
 
