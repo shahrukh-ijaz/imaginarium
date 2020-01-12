@@ -71,7 +71,7 @@
 	}
 	.flip-area{
 		height: auto;
-		overflow: scroll;
+		overflow: visible;
 		display: block;
 		white-space: nowrap;
 	}
