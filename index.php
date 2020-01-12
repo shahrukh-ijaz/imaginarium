@@ -28,7 +28,7 @@ $_SESSION["responses"]=array();
 		</div>
 		<!-- /.top-area -->
 		<div class="bottom-area">
-						<span style="margin-left: 45%;text-align: center"  class="copyright ">Momemtum &copy; 2020</span>
+						<span  class="copyright">Momemtum &copy; 2020</span>
 			<a href="https://www.momentumww.com/insight" target="_blank" class="ml-a logo"><img style="float: right;" src="images/logo.png" alt="logo"></a>
 		</div>
 		<!-- /.bottom-area -->
@@ -38,7 +38,7 @@ $_SESSION["responses"]=array();
 					<img width="200px" src="images/momentum.bmp"><br>
 					<span>the</span> archetypes
 				</div>
-				<p>discover your archtype</p><br>
+				<p>discover your archtype</p>
 				<a class="btn" href="quiz.php">Start</a>
 			</div>
 			<!-- /.conyainer -->
