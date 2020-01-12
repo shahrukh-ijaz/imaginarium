@@ -45,7 +45,7 @@
 	}
 
 	.slick-dots{
-		left: 8px;
+		left: 15px;
 		bottom: 10px;
 	}
 
@@ -84,11 +84,11 @@
 		margin-left: 10px;
 	}
 	.slick-dots li{
-		margin : 0;
+		margin-left: -12px;
 	}
 	.logo img{
-		height: 13%;
-		width:13%;
+		height: 20%;
+		width:20%;
 	}
 	.copyright{
 		margin-left: 38%;
