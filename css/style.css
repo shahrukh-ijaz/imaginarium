@@ -332,10 +332,11 @@ body {
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    height: 400px;
+    height: 420px;
     -ms-align-items: flex-start;
     align-items: flex-start;
     justify-content: center;
+    margin-top: -25px;
 }
 
 .flip_item {
