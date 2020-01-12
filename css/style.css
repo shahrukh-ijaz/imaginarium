@@ -79,7 +79,6 @@ body {
 }
 
 .middle-area {
-    margin: auto;
     width: 100%;
 }
 
@@ -87,7 +86,7 @@ body {
 .bottom-area {
     background-color: #fffce9;
     position: fixed;
-    padding: 15px;
+   padding: 15px;
     width: 100%;
     left: 0;
     display: -webkit-flex;
@@ -107,6 +106,7 @@ body {
 
 .bottom-area {
     bottom: 0;
+    padding-top:0px;
 }
 
 .top-area a,
@@ -233,7 +233,7 @@ body {
 
 .flip-images {
     position: relative;
-    max-width: 80%;
+    max-width: 70%;
     width: 100%;
     z-index: 1;
     display: block;
@@ -245,7 +245,7 @@ body {
 }
 
 .flip-images img {
-    max-width: 55%;
+    max-width: 50%;
     position: relative;
     border-radius: 15px;
     -webkit-box-shadow: 0px 1px 11px 1px rgba(0, 0, 0, 0.11);
@@ -326,7 +326,8 @@ body {
 
 .flip-area {
     display: block;
-    padding: 10px 0;
+   padding: 10px;
+   padding-bottom: 0px;
     display: -webkit-flex;
     display: -moz-flex;
     display: -ms-flex;
@@ -371,6 +372,8 @@ body {
 
 
 /* The actual popup */
+
+
 
 .popup .popuptext {
     visibility: hidden;
@@ -432,7 +435,7 @@ body {
 }
 
 .flip_item img {
-    height: 300px;
+    height: 270px;
     width: 100%;
     object-position: center;
     object-fit: cover;
