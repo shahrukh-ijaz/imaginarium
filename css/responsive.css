@@ -84,6 +84,23 @@
 		padding-bottom: 2px;
 		border-bottom-width: 3px;
 	}
+	::-webkit-scrollbar
+{
+  width: 0px;  
+  height: 6px; 
+  -webkit-overflow-scrolling: Auto;
+  /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
 }
 @media screen and (min-width: 641px) {
 	.text-sm-right{
@@ -177,6 +194,23 @@
 		padding-bottom: 2px;
 		border-bottom-width: 3px;
 	}
+	::-webkit-scrollbar
+{
+  width: 0px;  
+  height: 6px; 
+  -webkit-overflow-scrolling: Auto;
+  /* for horizontal scrollbars */
+}
+
+::-webkit-scrollbar-track
+{
+  background: rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb
+{
+  background: rgba(0, 0, 0, 0.5);
+}
 }
 
 @media screen and (max-width: 479px) {

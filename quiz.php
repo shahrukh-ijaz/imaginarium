@@ -34,26 +34,7 @@ $questions = mysqli_query($conn, "SELECT * FROM questions;");
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/responsive.css" />
 	<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e0ce9f6e6d3310012cd7f42&product=inline-share-buttons&cms=sop' ></script>
-	<style >
-		::-webkit-scrollbar
-{
-  width: 0px;  
-  height: 6px; 
-    -webkit-overflow-scrolling: Auto;
-
-  /* for horizontal scrollbars */
-}
-
-::-webkit-scrollbar-track
-{
-  background: rgba(0, 0, 0, 0.1);
-}
-
-::-webkit-scrollbar-thumb
-{
-  background: rgba(0, 0, 0, 0.5);
-}
-	</style>
+	
 </head>
 <body>
 	<div id="wrapper">
