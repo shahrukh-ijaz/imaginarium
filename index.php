@@ -19,7 +19,7 @@ $_SESSION["responses"]=array();
 	<script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5e0ce9f6e6d3310012cd7f42&product=inline-share-buttons&cms=sop' async='async'></script>
 </head>
 <body>
-	<div id="wrapper">
+	<div id="wrapper" class="home">
 		<div class="top-area">
 			<a href="about.html" target="_blank">About</a>
 			<div class="popup ml-a" onclick="myFunction()"><a href="#">Share</a>

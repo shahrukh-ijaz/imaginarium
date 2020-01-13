@@ -71,11 +71,13 @@ body {
     display: -ms-flex;
     display: -o-flex;
     display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    /*min-height: 320px;*/
+}
+#wrapper.home {
     -ms-align-items: center;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
-    min-height: 320px;
 }
 
 .middle-area {
@@ -332,7 +334,7 @@ body {
     display: -ms-flex;
     display: -o-flex;
     display: flex;
-    height: 420px;
+    height: 425px;
     -ms-align-items: flex-start;
     align-items: flex-start;
     justify-content: center;
