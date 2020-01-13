@@ -57,7 +57,7 @@
 	}
 	.flip_item img {
 
-    height: 150px;
+    height: 160px;
     width: 100%;
     object-position: center;
     object-fit: cover;
@@ -78,7 +78,7 @@
 		width:500px;
 	}
 	.fonting{
-		font-size: 10px;
+		font-size: 12px;
 	}
 	.title span{
 		padding-bottom: 2px;
@@ -150,7 +150,7 @@
 	}
 	.flip_item img {
 
-    height: 150px;
+    height: 180px;
     width: 100%;
     object-position: center;
     object-fit: cover;
