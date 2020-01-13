@@ -55,6 +55,14 @@
 		width:35%;
     margin-left: 80px;
 	}
+	.flip_item img {
+
+    height: 150px;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+
+}
 	.flip_item:first-child{
 		margin-left: 10px;
 	}
@@ -140,6 +148,14 @@
 /*	    min-width: 155px;
 */	    margin-left: -30px;
 	}
+	.flip_item img {
+
+    height: 150px;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+
+}
 	.flip_item:first-child{
 		margin-left: 10px;
 	}
