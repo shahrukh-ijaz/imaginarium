@@ -88,7 +88,7 @@
 {
   width: 0px;  
   height: 6px; 
-  -webkit-overflow-scrolling: Auto;
+  -webkit-overflow-scrolling: Touch;
   /* for horizontal scrollbars */
 }
 
@@ -198,7 +198,7 @@
 {
   width: 0px;  
   height: 6px; 
-  -webkit-overflow-scrolling: Auto;
+  -webkit-overflow-scrolling: Touch;
   /* for horizontal scrollbars */
 }
 
