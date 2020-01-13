@@ -38,7 +38,10 @@ $questions = mysqli_query($conn, "SELECT * FROM questions;");
 		::-webkit-scrollbar
 {
   width: 0px;  
-  height: 6px; /* for horizontal scrollbars */
+  height: 6px; 
+    -webkit-overflow-scrolling: Auto;
+
+  /* for horizontal scrollbars */
 }
 
 ::-webkit-scrollbar-track
