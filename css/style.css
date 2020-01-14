@@ -297,7 +297,9 @@ body {
     font-size: 14px;
     opacity: 1;
 }
-
+.scroll_more{
+    display: none;
+}
 
 /*.slick-active*/
 
