@@ -38,7 +38,7 @@ $_SESSION["responses"]=array();
 					<img width="200px" src="images/momentum.bmp"><br>
 					<span>the</span> archetypes
 				</div>
-				<p>discover your archtype</p>
+				<p>discover your archetype</p>
 				<a class="btn" href="quiz.php">Start</a>
 			</div>
 			<!-- /.conyainer -->
@@ -55,7 +55,7 @@ function myFunction() {
 }
 $("body").click(function(e){
 
-  
+
     });
 </script>
 </body>
